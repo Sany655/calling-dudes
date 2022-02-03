@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1009813759095",
+    "project_id": "calling-dudes",
+    "storage_bucket": "calling-dudes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009813759095:android:697822568dd7e11ba1d272",
+        "android_client_info": {
+          "package_name": "com.callingdudes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009813759095-gljcv3a44j3oktoonpkq8vik1q2ovfra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.callingdudes",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1009813759095-14uoditce3efarejlcmbhhekdi6sh5qm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4uw4PpVfUYd7OJSbRJwITipYhDqc2wUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009813759095-14uoditce3efarejlcmbhhekdi6sh5qm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
