@@ -1,4 +1,4 @@
-import { View, Text, Pressable } from 'react-native';
+import { Pressable } from 'react-native';
 import React, { useEffect } from 'react';
 import Layout from './components/Layout/Layout';
 import SplashScreen from 'react-native-splash-screen'
@@ -7,7 +7,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Register from './components/pages/Register';
 import Chat from './components/pages/Chat'
-import { LogBox } from 'react-native';
 import useAuth, { AuthProvider } from './contexts/useAuth';
 import Ionicon from 'react-native-vector-icons/Ionicons'
 import Suggestion from './components/Suggestion';
@@ -19,9 +18,6 @@ function Wrapper() {
 
   useEffect(() => {
     SplashScreen.hide();
-    LogBox.ignoreLogs([
-      "[react-native-gesture-handler] Seems like you\'re using an old API with gesture components, check out new Gestures system!",
-    ]);
   }, []);
 
   return (

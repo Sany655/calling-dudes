@@ -5,7 +5,7 @@ import IonIcons from 'react-native-vector-icons/Ionicons'
 
 const Feed = () => {
   const { user } = useAuth();
-  console.log(user);
+  
   return (
     <ScrollView style={{ padding: 20, backgroundColor: "white" }}>
       {/* write post starts here */}

@@ -19,8 +19,8 @@ const Layout = () => {
         </Pressable>
       },
     }}>
-      <Tab.Screen name='Feed' component={Feed} options={{ tabBarIcon: ({ color }) => (<Ionicon color={color} name="newspaper-outline" size={24} />) }} />
       <Tab.Screen name='Profile' component={Profile} options={{ tabBarIcon: ({ color }) => (<Ionicon color={color} name="person-circle-outline" size={24} />) }} />
+      <Tab.Screen name='Feed' component={Feed} options={{ tabBarIcon: ({ color }) => (<Ionicon color={color} name="newspaper-outline" size={24} />) }} />
       <Tab.Screen name='Inbox' component={Inbox} options={{ tabBarIcon: ({ color }) => (<Ionicon color={color} name="chatbox-outline" size={24} />) }} />
     </Tab.Navigator>
   );
